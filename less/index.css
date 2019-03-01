@@ -53,8 +53,7 @@ i {
 .br {
   border-right: 1px solid #ccc;
 }
-/* 因为头部底部每一个页面都一样把样式作为公共样式 */
-/* 公共头部区域样式 */
+/* 头部区域样式 */
 #header {
   position: fixed;
   /* 定位了会脱标不会有默认100%宽度由内容撑开 */
@@ -127,28 +126,6 @@ i {
   color: #fff;
   text-align: center;
   line-height: 0.4rem;
-}
-/* 底部区域的样式 */
-#footer {
-  position: fixed;
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-}
-#footer ul {
-  display: flex;
-}
-#footer ul li {
-  width: 25%;
-}
-#footer ul li a {
-  display: block;
-  text-align: center;
-}
-#footer ul li a img {
-  width: 0.65rem;
-  height: 0.5rem;
 }
 /* 轮播图样式 */
 #slide img {
@@ -293,4 +270,26 @@ i {
 }
 #main .market .content .right a img {
   width: 100%;
+}
+/* 底部区域的样式 */
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+#footer ul {
+  display: flex;
+}
+#footer ul li {
+  width: 25%;
+}
+#footer ul li a {
+  display: block;
+  text-align: center;
+}
+#footer ul li a img {
+  width: 0.65rem;
+  height: 0.5rem;
 }
